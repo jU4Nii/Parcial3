@@ -16,7 +16,7 @@ namespace Back.Data1
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Server=(localdb)\\MSSQLLocalDB;Database=PruebaEF;Trusted_Connection=True;TrustServerCertificate=True;"
+                "Server=JUANI\\SQLEXPRESS04;Database=BarberiaDB;Trusted_Connection=True;TrustServerCertificate=True;"
             );
         }
 
